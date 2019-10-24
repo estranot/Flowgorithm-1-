@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 02:55:24 "/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAyOjUzOjMwICI7MzUwMQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAyOjU1OjI0ICI7MTszNjE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sayi, toplam, ort" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi1 gir&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;sayi2 gir&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toplam" expression="a+b"/>
+            <assign variable="ort" expression="(a+b)/2"/>
+            <output expression="ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

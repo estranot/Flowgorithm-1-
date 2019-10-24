@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 03:00:02 "/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAyOjU3OjU5ICI7MzUxNg=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAzOjAwOjAyICI7MTszNjAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi1=&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;sayi2=&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;a b'den b&#252;y&#252;kt&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a b'den k&#252;&#231;&#252;kt&#252;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

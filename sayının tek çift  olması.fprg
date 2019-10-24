@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 02:57:56 "/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAyOjU1OjMxICI7MzUwNA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtRRS1CSUxHSVNBWUFSOzIwMTktMTAtMjM7IjAyOjU3OjU2ICI7MTszNjIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, a, b, sonuc" type="Integer" array="False" size=""/>
+            <output expression="&quot;say1 gir&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a%2=0">
+                <then>
+                    <output expression="&quot;a &#231;ifttir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a tektir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
